@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.weather{
+    @apply flex justify-center text-cyan-800 font-bold text-xl md:mb-2 md:text-4xl
+}
