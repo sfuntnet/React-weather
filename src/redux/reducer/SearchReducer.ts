@@ -1,4 +1,3 @@
-// @ts-ignore
 import {createSlice} from '@reduxjs/toolkit';
 
 const initialState = {
@@ -10,7 +9,6 @@ const searchSlice = createSlice({
     name: 'search',
     initialState,
     reducers: {
-        // @ts-ignore
         setSearch: (state, action) => {
             state.search = action.payload
         },
